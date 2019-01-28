@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>The Legend of Zelda Trivia</title>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="text-white">The Legend of Zelda Trivia Game</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="images">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm">
+          <img src='assets/images/Link.gif' alt='Zelda' width='200px'>
+        </div>
+        <div class="col-sm">
+          <img src='assets/images/Link1.gif' alt='Zelda' width='200px'>
+        </div>
+        <div class="col-sm">
+          <img src='assets/images/Link.gif' alt='Zelda' width='200px'>
+        </div>
+
+        </header>
+        <div class='container'>
+          <button class='btn btn-dark' id='startBtn'>Begin</button>
+
+          <div class="container-fluid">
+              <div class="row">
+                  <div id=currentQuestion></div>
+              </div>
+            </div>
+
+          <div class="col">
+            <div class="container-fluid">
+              <div class="container">
+                <div class="row">
+                  <div id=timeLeft></div>
+                  <div class='question'></div>
+                  <div class='answerList'></div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                      <div id=currentQuestion></div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col">
+                      <div id=finalMessage></div>
+                      <div id=correctAnswers></div>
+                      <div id=incorrectAnswers></div>
+                      <div id=unanswered></div>
+                    </div>
+                    <div class="container-fluid">
+                      <div class="col">
+                        <div id=message></div>
+                        <div id=correctedAnswer></div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery.js"></script>
+
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

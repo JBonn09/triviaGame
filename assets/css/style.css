@@ -1,0 +1,29 @@
+.jumbotron {
+  background-image: url("https://www.nintendo-insider.com/wp-content/uploads/2015/09/zelda-a-link-between-worlds-banner.jpg");
+  font-family: cursive;
+  justify-content: center;
+}
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR23bZltZk98zSQL3GTDWkFh-00swQpZbaTr0zoRFw1ly33pEKP")
+}
+
+.container {
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+  width: 700px;
+  font-family: cursive;
+  text-decoration-color: aliceblue; 
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+
+.thisChoice:hover{
+	background-color: white;
+	color: grey;
+  padding: 10px;
+  font-size: 40px;
+}
+
